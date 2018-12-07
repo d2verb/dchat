@@ -6,9 +6,11 @@
 void usage(void)
 {
   const char *help = "Usage: dchat MODE ...\n"
-    "<MODE>\n"
-    "  srv -- dchat srv PORT\t\tStart dchat with server mode\n"
-    "  cli -- dchat cli HOST PORT\tStart dchat with client mode\n";
+    "A chat written in C\n"
+    "\n"
+    "Mode:\n"
+    "  srv - Usage: dchat srv PORT\t\tStart dchat with server mode\n"
+    "  cli - Usage: dchat cli HOST PORT\tStart dchat with client mode\n";
   fprintf(stderr, "%s", help);
   return;
 }
